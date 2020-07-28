@@ -1,0 +1,8 @@
+* Sample Files for Benchmarks
+
+   51   259  1783 fannkuchredux.php-1.php
+  123   319  2892 fasta.php-2.php
+  2413   6065  98601 RequestTest.php
+  2139   5407 104968 FrameworkExtension.php
+   329    679   5747 Comment.php
+  7948  26260 285899 Xls.php

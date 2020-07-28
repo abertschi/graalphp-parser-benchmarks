@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.develnext.jphp</groupId>
+  <artifactId>jphp-scripting</artifactId>
+  <versioning>
+    <versions>
+      <version>0.9.3-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20200728115359</lastUpdated>
+  </versioning>
+</metadata>
