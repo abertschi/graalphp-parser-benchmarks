@@ -1,0 +1,11 @@
+* 20200729-013843-parser-bench.txt
+benchmarking file /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/phpoffice/Xls.php
+Benchmark #1: php --syntax-check /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/phpoffice/Xls.php
+  Time (mean ± σ):       9.1 ms ±   0.2 ms    [User: 6.6 ms, System: 2.6 ms]
+  Range (min … max):     8.8 ms …  13.2 ms    2000 runs
+
+
+BenchmarkParser.benchmarkANTRL                         phpoffice/Xls.php  avgt    5  1448.257 ± 57.975  ms/op
+BenchmarkParser.benchmarkGraalPHP                      phpoffice/Xls.php  avgt    5    29.162 ±  0.058  ms/op
+BenchmarkParser.benchmarkJPHP                          phpoffice/Xls.php  avgt    5    13.962 ±  0.222  ms/op
+php with --sytax-check flag                            phpoffice/Xls.php  -             9.1  +-  0.2    ms  
