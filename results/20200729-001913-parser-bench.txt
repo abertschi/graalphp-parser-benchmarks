@@ -1,0 +1,360 @@
+benchmarking file /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/benchmarkgame/fannkuchredux.php-1.php
+Benchmark #1: php --syntax-check /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/benchmarkgame/fannkuchredux.php-1.php
+  Time (mean ± σ):       5.5 ms ±   0.2 ms    [User: 3.7 ms, System: 2.0 ms]
+  Range (min … max):     5.2 ms …   8.9 ms    2000 runs
+ 
+benchmarking file /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/benchmarkgame/fasta.php-2.php
+Benchmark #1: php --syntax-check /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/benchmarkgame/fasta.php-2.php
+  Time (mean ± σ):       5.6 ms ±   0.2 ms    [User: 3.7 ms, System: 2.0 ms]
+  Range (min … max):     5.3 ms …   6.6 ms    2000 runs
+ 
+benchmarking file /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/phpoffice/Xls.php
+Benchmark #1: php --syntax-check /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/phpoffice/Xls.php
+  Time (mean ± σ):       9.1 ms ±   0.1 ms    [User: 6.5 ms, System: 2.6 ms]
+  Range (min … max):     8.8 ms …   9.9 ms    2000 runs
+ 
+benchmarking file /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/phpoffice/Comment.php
+Benchmark #1: php --syntax-check /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/phpoffice/Comment.php
+  Time (mean ± σ):       5.6 ms ±   0.2 ms    [User: 3.7 ms, System: 2.0 ms]
+  Range (min … max):     5.3 ms …   6.6 ms    2000 runs
+ 
+benchmarking file /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/symfony/RequestTest.php
+Benchmark #1: php --syntax-check /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/symfony/RequestTest.php
+  Time (mean ± σ):       7.1 ms ±   0.2 ms    [User: 4.8 ms, System: 2.3 ms]
+  Range (min … max):     6.8 ms …  11.1 ms    2000 runs
+ 
+benchmarking file /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/symfony/FrameworkExtension.php
+Benchmark #1: php --syntax-check /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/symfony/FrameworkExtension.php
+  Time (mean ± σ):       7.2 ms ±   0.2 ms    [User: 5.1 ms, System: 2.3 ms]
+  Range (min … max):     7.0 ms …  11.6 ms    2000 runs
+ 
+# JMH version: 1.23
+# VM version: JDK 11.0.6, OpenJDK 64-Bit Server VM, 11.0.6+9-jvmci-20.0-b02
+# VM invoker: /home/b/tools/graalvm/bin/java
+# VM options: -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:-UnlockExperimentalVMOptions -XX:ThreadPriorityPolicy=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.graalphp.benchmark.BenchmarkParser.benchmarkANTRL
+# Parameters: (filename = phpoffice/Xls.php)
+
+# Run progress: 0.00% complete, ETA 00:30:00
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: phpoffice/Xls.php
+1767.795 ms/op
+# Warmup Iteration   2: 1461.364 ms/op
+# Warmup Iteration   3: 1462.398 ms/op
+# Warmup Iteration   4: 1443.512 ms/op
+# Warmup Iteration   5: 1447.810 ms/op
+Iteration   1: 1453.279 ms/op
+Iteration   2: 1499.903 ms/op
+Iteration   3: 1491.908 ms/op
+Iteration   4: 1473.841 ms/op
+Iteration   5: 1462.290 ms/op
+
+
+Result "org.graalphp.benchmark.BenchmarkParser.benchmarkANTRL":
+  1476.244 ±(99.9%) 75.382 ms/op [Average]
+  (min, avg, max) = (1453.279, 1476.244, 1499.903), stdev = 19.577
+  CI (99.9%): [1400.862, 1551.627] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 11.0.6, OpenJDK 64-Bit Server VM, 11.0.6+9-jvmci-20.0-b02
+# VM invoker: /home/b/tools/graalvm/bin/java
+# VM options: -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:-UnlockExperimentalVMOptions -XX:ThreadPriorityPolicy=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.graalphp.benchmark.BenchmarkParser.benchmarkANTRL
+# Parameters: (filename = phpoffice/Comment.php)
+
+# Run progress: 5.56% complete, ETA 00:29:16
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: phpoffice/Comment.php
+11.510 ms/op
+# Warmup Iteration   2: 10.918 ms/op
+# Warmup Iteration   3: 10.714 ms/op
+# Warmup Iteration   4: 10.918 ms/op
+# Warmup Iteration   5: 10.732 ms/op
+Iteration   1: 10.833 ms/op
+Iteration   2: 10.829 ms/op
+Iteration   3: 10.715 ms/op
+Iteration   4: 10.827 ms/op
+Iteration   5: 10.886 ms/op
+
+
+Result "org.graalphp.benchmark.BenchmarkParser.benchmarkANTRL":
+  10.818 ±(99.9%) 0.242 ms/op [Average]
+  (min, avg, max) = (10.715, 10.818, 10.886), stdev = 0.063
+  CI (99.9%): [10.576, 11.060] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 11.0.6, OpenJDK 64-Bit Server VM, 11.0.6+9-jvmci-20.0-b02
+# VM invoker: /home/b/tools/graalvm/bin/java
+# VM options: -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:-UnlockExperimentalVMOptions -XX:ThreadPriorityPolicy=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.graalphp.benchmark.BenchmarkParser.benchmarkANTRL
+# Parameters: (filename = symfony/Frameworkextension.php)
+
+# Run progress: 11.11% complete, ETA 00:27:08
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: <failure>
+
+java.lang.NullPointerException
+	at org.graalphp.benchmark.BenchmarkParser.readFile(BenchmarkParser.java:92)
+	at org.graalphp.benchmark.BenchmarkParser.setup(BenchmarkParser.java:57)
+	at org.graalphp.benchmark.generated.BenchmarkParser_benchmarkANTRL_jmhTest._jmh_tryInit_f_benchmarkparser0_G(BenchmarkParser_benchmarkANTRL_jmhTest.java:438)
+	at org.graalphp.benchmark.generated.BenchmarkParser_benchmarkANTRL_jmhTest.benchmarkANTRL_AverageTime(BenchmarkParser_benchmarkANTRL_jmhTest.java:161)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:453)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:437)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+
+
+# JMH version: 1.23
+# VM version: JDK 11.0.6, OpenJDK 64-Bit Server VM, 11.0.6+9-jvmci-20.0-b02
+# VM invoker: /home/b/tools/graalvm/bin/java
+# VM options: -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:-UnlockExperimentalVMOptions -XX:ThreadPriorityPolicy=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.graalphp.benchmark.BenchmarkParser.benchmarkANTRL
+# Parameters: (filename = symfony/RequestTest.php)
+
+# Run progress: 16.67% complete, ETA 00:16:58
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: symfony/RequestTest.php
+417.643 ms/op
+# Warmup Iteration   2: 389.561 ms/op
+# Warmup Iteration   3: 390.470 ms/op
+# Warmup Iteration   4: 386.752 ms/op
+# Warmup Iteration   5: 386.334 ms/op
+Iteration   1: 387.443 ms/op
+Iteration   2: 388.498 ms/op
+Iteration   3: 385.082 ms/op
+Iteration   4: 392.282 ms/op
+Iteration   5: 391.002 ms/op
+
+
+Result "org.graalphp.benchmark.BenchmarkParser.benchmarkANTRL":
+  388.862 ±(99.9%) 11.011 ms/op [Average]
+  (min, avg, max) = (385.082, 388.862, 392.282), stdev = 2.859
+  CI (99.9%): [377.851, 399.872] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 11.0.6, OpenJDK 64-Bit Server VM, 11.0.6+9-jvmci-20.0-b02
+# VM invoker: /home/b/tools/graalvm/bin/java
+# VM options: -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:-UnlockExperimentalVMOptions -XX:ThreadPriorityPolicy=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.graalphp.benchmark.BenchmarkParser.benchmarkANTRL
+# Parameters: (filename = benchmarkgame/fasta.php-2.php)
+
+# Run progress: 22.22% complete, ETA 00:17:47
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: benchmarkgame/fasta.php-2.php
+121.831 ms/op
+# Warmup Iteration   2: 114.503 ms/op
+# Warmup Iteration   3: 114.508 ms/op
+# Warmup Iteration   4: 114.587 ms/op
+# Warmup Iteration   5: 114.227 ms/op
+Iteration   1: 114.925 ms/op
+Iteration   2: 114.012 ms/op
+Iteration   3: 113.708 ms/op
+Iteration   4: 114.064 ms/op
+Iteration   5: 114.950 ms/op
+
+
+Result "org.graalphp.benchmark.BenchmarkParser.benchmarkANTRL":
+  114.332 ±(99.9%) 2.192 ms/op [Average]
+  (min, avg, max) = (113.708, 114.332, 114.950), stdev = 0.569
+  CI (99.9%): [112.139, 116.524] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 11.0.6, OpenJDK 64-Bit Server VM, 11.0.6+9-jvmci-20.0-b02
+# VM invoker: /home/b/tools/graalvm/bin/java
+# VM options: -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:-UnlockExperimentalVMOptions -XX:ThreadPriorityPolicy=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.graalphp.benchmark.BenchmarkParser.benchmarkANTRL
+# Parameters: (filename = benchmarkgame/fannkuchredux.php-1.php)
+
+# Run progress: 27.78% complete, ETA 00:17:35
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: benchmarkgame/fannkuchredux.php-1.php
+54.232 ms/op
+# Warmup Iteration   2: 51.548 ms/op
+# Warmup Iteration   3: 51.536 ms/op
+# Warmup Iteration   4: 50.573 ms/op
+# Warmup Iteration   5: 51.578 ms/op
+Iteration   1: 51.487 ms/op
+Iteration   2: 51.437 ms/op
+Iteration   3: 52.274 ms/op
+Iteration   4: 51.627 ms/op
+Iteration   5: 50.963 ms/op
+
+
+Result "org.graalphp.benchmark.BenchmarkParser.benchmarkANTRL":
+  51.558 ±(99.9%) 1.818 ms/op [Average]
+  (min, avg, max) = (50.963, 51.558, 52.274), stdev = 0.472
+  CI (99.9%): [49.739, 53.376] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 11.0.6, OpenJDK 64-Bit Server VM, 11.0.6+9-jvmci-20.0-b02
+# VM invoker: /home/b/tools/graalvm/bin/java
+# VM options: -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:-UnlockExperimentalVMOptions -XX:ThreadPriorityPolicy=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.graalphp.benchmark.BenchmarkParser.benchmarkGraalPHP
+# Parameters: (filename = phpoffice/Xls.php)
+
+# Run progress: 33.33% complete, ETA 00:16:52
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: phpoffice/Xls.php
+31.276 ms/op
+# Warmup Iteration   2: 29.332 ms/op
+# Warmup Iteration   3: 29.200 ms/op
+# Warmup Iteration   4: 29.192 ms/op
+# Warmup Iteration   5: 29.193 ms/op
+Iteration   1: 29.217 ms/op
+Iteration   2: 28.942 ms/op
+Iteration   3: 28.929 ms/op
+Iteration   4: 30.146 ms/op
+Iteration   5: 29.716 ms/op
+
+
+Result "org.graalphp.benchmark.BenchmarkParser.benchmarkGraalPHP":
+  29.390 ±(99.9%) 2.039 ms/op [Average]
+  (min, avg, max) = (28.929, 29.390, 30.146), stdev = 0.529
+  CI (99.9%): [27.352, 31.429] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 11.0.6, OpenJDK 64-Bit Server VM, 11.0.6+9-jvmci-20.0-b02
+# VM invoker: /home/b/tools/graalvm/bin/java
+# VM options: -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:-UnlockExperimentalVMOptions -XX:ThreadPriorityPolicy=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.graalphp.benchmark.BenchmarkParser.benchmarkGraalPHP
+# Parameters: (filename = phpoffice/Comment.php)
+
+# Run progress: 38.89% complete, ETA 00:15:53
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: phpoffice/Comment.php
+0.467 ms/op
+# Warmup Iteration   2: 0.446 ms/op
+# Warmup Iteration   3: 0.443 ms/op
+# Warmup Iteration   4: 0.434 ms/op
+# Warmup Iteration   5: 0.435 ms/op
+Iteration   1: 0.434 ms/op
+Iteration   2: 0.441 ms/op
+Iteration   3: 0.448 ms/op
+Iteration   4: 0.448 ms/op
+Iteration   5: 0.443 ms/op
+
+
+Result "org.graalphp.benchmark.BenchmarkParser.benchmarkGraalPHP":
+  0.443 ±(99.9%) 0.022 ms/op [Average]
+  (min, avg, max) = (0.434, 0.443, 0.448), stdev = 0.006
+  CI (99.9%): [0.420, 0.465] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 11.0.6, OpenJDK 64-Bit Server VM, 11.0.6+9-jvmci-20.0-b02
+# VM invoker: /home/b/tools/graalvm/bin/java
+# VM options: -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:-UnlockExperimentalVMOptions -XX:ThreadPriorityPolicy=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.graalphp.benchmark.BenchmarkParser.benchmarkGraalPHP
+# Parameters: (filename = symfony/Frameworkextension.php)
+
+# Run progress: 44.44% complete, ETA 00:14:43
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: <failure>
+
+java.lang.NullPointerException
+	at org.graalphp.benchmark.BenchmarkParser.readFile(BenchmarkParser.java:92)
+	at org.graalphp.benchmark.BenchmarkParser.setup(BenchmarkParser.java:57)
+	at org.graalphp.benchmark.generated.BenchmarkParser_benchmarkGraalPHP_jmhTest._jmh_tryInit_f_benchmarkparser0_G(BenchmarkParser_benchmarkGraalPHP_jmhTest.java:438)
+	at org.graalphp.benchmark.generated.BenchmarkParser_benchmarkGraalPHP_jmhTest.benchmarkGraalPHP_AverageTime(BenchmarkParser_benchmarkGraalPHP_jmhTest.java:161)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:453)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:437)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+
+
+# JMH version: 1.23
+# VM version: JDK 11.0.6, OpenJDK 64-Bit Server VM, 11.0.6+9-jvmci-20.0-b02
+# VM invoker: /home/b/tools/graalvm/bin/java
+# VM options: -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:-UnlockExperimentalVMOptions -XX:ThreadPriorityPolicy=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.graalphp.benchmark.BenchmarkParser.benchmarkGraalPHP
+# Parameters: (filename = symfony/RequestTest.php)
+
+# Run progress: 50.00% complete, ETA 00:11:47
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: symfony/RequestTest.php

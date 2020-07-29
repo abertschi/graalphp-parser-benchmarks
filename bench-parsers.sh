@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if ! command -v hyperfine &>/dev/null; then
   echo "Hyperfine not found. download from https://github.com/sharkdp/hyperfine"
@@ -10,12 +10,12 @@ mkdir -p $script_dir/results
 output="$script_dir/results/$now-parser-bench.txt"
 
 cur_dir=$(pwd)
-ced $script_dir
+cd $script_dir
 
 
 function execute() {
   echo "benchmarking file $1" | tee -a $output
-  hyperfine --warmup 10 "php --syntax-check $1" | tee -a $output
+  hyperfine --warmup 200 -m 2000 "php --syntax-check $1"  | tee -a $output
 }
 
 
@@ -35,6 +35,6 @@ execute $f4
 execute $f5
 
 mvn package
-java -jar target/benchmarks.jar org.graalphp.benchmark.BenchmarkParser | tee $output
+java -jar $script_dir/target/benchmarks.jar org.graalphp.benchmark.BenchmarkParser | tee -a $output
 
 cd $cur_dir

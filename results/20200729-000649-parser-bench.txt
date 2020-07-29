@@ -1,0 +1,12 @@
+benchmarking file /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/benchmarkgame/fannkuchredux.php-1.php
+Benchmark #1: php --syntax-check /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/benchmarkgame/fannkuchredux.php-1.php
+  Time (mean ± σ):       5.5 ms ±   0.1 ms    [User: 3.7 ms, System: 2.0 ms]
+  Range (min … max):     5.3 ms …   6.9 ms    2000 runs
+ 
+benchmarking file /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/benchmarkgame/fasta.php-2.php
+Benchmark #1: php --syntax-check /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/benchmarkgame/fasta.php-2.php
+  Time (mean ± σ):       5.6 ms ±   0.2 ms    [User: 3.8 ms, System: 2.0 ms]
+  Range (min … max):     5.3 ms …   9.4 ms    2000 runs
+ 
+benchmarking file /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/phpoffice/Xls.php
+Benchmark #1: php --syntax-check /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/phpoffice/Xls.php

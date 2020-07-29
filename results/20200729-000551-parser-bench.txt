@@ -1,0 +1,15 @@
+# JMH version: 1.23
+# VM version: JDK 11.0.6, OpenJDK 64-Bit Server VM, 11.0.6+9-jvmci-20.0-b02
+# VM invoker: /home/b/tools/graalvm/bin/java
+# VM options: -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:-UnlockExperimentalVMOptions -XX:ThreadPriorityPolicy=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.graalphp.benchmark.BenchmarkParser.benchmarkGraalPHP
+# Parameters: (filename = phpoffice/Xls.php)
+
+# Run progress: 0.00% complete, ETA 00:03:20
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.

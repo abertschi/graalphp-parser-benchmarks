@@ -1,0 +1,7 @@
+benchmarking file /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/benchmarkgame/fannkuchredux.php-1.php
+Benchmark #1: php --syntax-check /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/benchmarkgame/fannkuchredux.php-1.php
+  Time (mean ± σ):       5.5 ms ±   0.1 ms    [User: 3.6 ms, System: 2.0 ms]
+  Range (min … max):     5.2 ms …   5.9 ms    383 runs
+ 
+benchmarking file /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/benchmarkgame/fasta.php-2.php
+Benchmark #1: php --syntax-check /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/benchmarkgame/fasta.php-2.php

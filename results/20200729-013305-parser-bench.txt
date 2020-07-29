@@ -1,0 +1,22 @@
+benchmarking file /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/benchmarkgame/fannkuchredux.php-1.php
+Benchmark #1: php --syntax-check /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/benchmarkgame/fannkuchredux.php-1.php > /dev/null
+  Time (mean ± σ):       5.9 ms ±   0.1 ms    [User: 3.9 ms, System: 2.0 ms]
+  Range (min … max):     5.7 ms …   9.5 ms    2000 runs
+ 
+benchmarking file /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/benchmarkgame/fasta.php-2.php
+Benchmark #1: php --syntax-check /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/benchmarkgame/fasta.php-2.php > /dev/null
+  Time (mean ± σ):       5.9 ms ±   0.1 ms    [User: 4.1 ms, System: 2.0 ms]
+  Range (min … max):     5.7 ms …   9.6 ms    2000 runs
+ 
+benchmarking file /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/phpoffice/Xls.php
+Benchmark #1: php --syntax-check /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/phpoffice/Xls.php > /dev/null
+  Time (mean ± σ):       9.4 ms ±   0.2 ms    [User: 7.0 ms, System: 2.5 ms]
+  Range (min … max):     9.1 ms …  10.7 ms    2000 runs
+ 
+benchmarking file /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/phpoffice/Comment.php
+Benchmark #1: php --syntax-check /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/phpoffice/Comment.php > /dev/null
+  Time (mean ± σ):       5.9 ms ±   0.1 ms    [User: 4.0 ms, System: 2.0 ms]
+  Range (min … max):     5.7 ms …   6.9 ms    2000 runs
+ 
+benchmarking file /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/symfony/RequestTest.php
+Benchmark #1: php --syntax-check /home/b/beandata/pgm-eth/eth-s08-ba-graalphp/graalphp-parser-benchmarks/src/main/resources/symfony/RequestTest.php > /dev/null

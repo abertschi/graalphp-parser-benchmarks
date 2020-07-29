@@ -43,7 +43,7 @@ public class BenchmarkParser {
     @Param({
             "phpoffice/Xls.php",
             "phpoffice/Comment.php",
-            "symfony/Frameworkextension.php",
+            "symfony/FrameworkExtension.php",
             "symfony/RequestTest.php",
             "benchmarkgame/fasta.php-2.php",
             "benchmarkgame/fannkuchredux.php-1.php",
@@ -68,7 +68,7 @@ public class BenchmarkParser {
         sink.consume(analyzer);
     }
 
-//    @Benchmark
+    @Benchmark
     public void benchmarkANTRL(Blackhole sink) throws IOException {
         PhpLexer lexer = new PhpLexer(new ANTLRInputStream(codeWithTags));
         PhpParser parser = new PhpParser(new CommonTokenStream(lexer));
@@ -81,7 +81,6 @@ public class BenchmarkParser {
     public void benchmarkGraalPHP(Blackhole sink) throws Exception {
         ASTParser parser = ASTParser.newParser(PHPVersion.PHP7_4);
         parser.setSource(codeWithTags.toCharArray());
-//        parser.addErrorListener(new ConsoleErrorListener());
         parser.addErrorListener(new BailoutErrorListener());
         Program pgm = parser.parsePhpProgram();
         sink.consume(pgm);

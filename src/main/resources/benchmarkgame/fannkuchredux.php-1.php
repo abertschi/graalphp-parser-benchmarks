@@ -1,3 +1,4 @@
+<?php
 /* The Computer Language Benchmarks Game
    https://salsa.debian.org/benchmarksgame-team/benchmarksgame/
    
@@ -49,3 +50,4 @@ function Fannkuch($n){
 $n = $argv[1];
 list($checksum,$pf) = Fannkuch($n);
 printf("%d\nPfannkuchen(%d) = %d", $checksum, $n, $pf);
+?>
